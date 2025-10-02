@@ -576,7 +576,7 @@ img.PE {
 	border: 3px solid black;
 	width: 90%;
 	width: 640px;
-	height: 366px;
+	height: 360px;
 	overflow: hidden;
 }
 
@@ -584,6 +584,7 @@ img.PE {
 .EVideo video {
 	width: 100%;
 	height: 100%;
+	display: block;
 }
 
 .Title-Beginner-Lesson {
@@ -753,17 +754,17 @@ img.PE {
 }
 
 .Video {
-	border: 3px solid black;
-	width: 90%;
-	max-width: 1080px;
-	aspect-ratio: 16/9;
-	margin: 2% auto;
+	width: 1080px; 
+	height: 614px;
+	margin: auto;
+	overflow: hidden;
 }
 
 .Video iframe,
 .Video video {
 	width: 100%;
 	height: 100%;
+	display: block;
 }
 
 .B-Relate {
@@ -855,6 +856,7 @@ img.PE {
 	75% {background-position-x: -180px;}
 	100% {background-position-x: 0px;}
 }
+
 
 
 
