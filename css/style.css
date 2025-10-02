@@ -1,6 +1,7 @@
 Body {
 	background-image: url("../Images/Extras/Background.png");
 	background-position: center;
+	overflow-x: hidden;
 }
 
 div {
@@ -863,3 +864,4 @@ img.PE {
 	75% {background-position-x: -180px;}
 	100% {background-position-x: 0px;}
 }
+
