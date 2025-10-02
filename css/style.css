@@ -586,6 +586,9 @@ li {
     width: 100%;
     min-height: 100px;
     text-align: center;
+	display: flex;
+    justify-content: center;
+    align-items: center;
 	
 }
 
@@ -1075,6 +1078,7 @@ img.PE {
 	100% {background-position-x: 0px;}
 	
 }
+
 
 
 
