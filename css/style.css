@@ -295,50 +295,40 @@ a {
 
 #BL-1 {
 	background: url('../Images/Animation/BL_Anim/1.png') no-repeat 0 0;
-	background-size: contain;
 }
 
 #BL-2 {
 	background: url('../Images/Animation/BL_Anim/2.png') no-repeat 0 0;
-	background-size: contain;
 }
 
 #BL-3 {
 	background: url('../Images/Animation/BL_Anim/3.png') no-repeat 0 0;
-	background-size: contain;
 }
 
 #IL-1 {
 	background: url('../Images/Animation/IL_Anim/1.png') no-repeat 0 0;
-	background-size: contain;
 }
 
 #IL-2 {
 	background: url('../Images/Animation/IL_Anim/2.png') no-repeat 0 0;
-	background-size: contain;
 }
 
 #EL-1 {
 	background: url('../Images/Animation/EL_Anim/1.png') no-repeat 0 0;
-	background-size: contain;
 }
 
 #EL-2 {
 	background: url('../Images/Animation/EL_Anim/2.png') no-repeat 0 0;
-	background-size: contain;
 }
 
 #EL-3 {
 	background: url('../Images/Animation/EL_Anim/3.png') no-repeat 0 0;
-	background-size: contain;
 }
 
 .Anim {
 	margin: auto;
-	width: 4vw;
-	min-width: 50px;
-	height: 4vw;
-	min-height: 50px;
+	width: 60px;
+	height: 60px;
 	animation-name: Animation;
 	animation-duration: 4s;
 	animation-iteration-count: infinite;
@@ -853,10 +843,11 @@ img.PE {
 }
 
 @keyframes Animation {
-	0% {background-position-x: 0px;}
+	0% {background-position-x: 0px;} 
 	25% {background-position-x: -60px;}
 	50% {background-position-x: -120px;}
 	75% {background-position-x: -180px;}
 	100% {background-position-x: 0px;}
 }
+
 
