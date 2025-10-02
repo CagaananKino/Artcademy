@@ -1,10 +1,21 @@
 Body {
-	Background-image: url("../Images/Extras/Background.png");
-	Background-position: center;
+	background-image: url("../Images/Extras/Background.png");
+	background-position: center;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	margin: 0;
+	padding: 0;
 }
 
 div {
 	font-family: Comic Sans MS;
+}
+
+* {
+	box-sizing: border-box;
 }
 
 .Icon {
@@ -23,7 +34,8 @@ nav {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	margin-left: -8px;
+	left: 0;
+	margin: 0;
 	z-index: 1000;
 }
 
@@ -461,11 +473,13 @@ li {
 	overflow: hidden;
 	background-color: #333;
 	bottom: 0;
-	margin-bottom: -10px;
 	width: 100%;
 	min-height: 100px;
 	text-align: center;
 	padding: 2%;
+	margin: 0;
+	left: 0;
+	position: relative;
 }
 
 .BI {
@@ -865,6 +879,7 @@ img.PE {
 	75% {background-position-x: -180px;}
 	100% {background-position-x: 0px;}
 }
+
 
 
 
