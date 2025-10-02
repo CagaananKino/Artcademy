@@ -472,83 +472,75 @@ li {
 }
 
 .Twitter {
-	background: url('../Images/Extras/Socials_Icon/Twitter-Sprite.png') no-repeat 0px -60px;
-	background-size: contain;
+	background: url('../Images/Extras/Socials_Icon/Twitter-Sprite.png') no-repeat center;
+	background-size: 60px 120px;
+	background-position: 0px -60px;
 	overflow: hidden;
 	float: right;
 	display: block;
 	color: #f2f2f2;
-	width: 4vw;
-	min-width: 50px;
-	height: 4vw;
-	min-height: 50px;
+	width: 60px;
+	height: 60px;
 	text-decoration: none;
 }
 
 .Twitter:hover {
-	background: url('../Images/Extras/Socials_Icon/Twitter-Sprite.png') no-repeat 0px 0px;
-	background-size: contain;
+	background: url('../Images/Extras/Socials_Icon/Twitter-Sprite.png') no-repeat center;
+	background-size: 60px 120px;
+	background-position: 0px 0px;
 	overflow: hidden;
 	float: right;
 	display: block;
-	width: 4vw;
-	min-width: 50px;
-	height: 4vw;
-	min-height: 50px;
+	width: 60px;
+	height: 60px;
 }
 
 .FA {
-	background: url('../Images/Extras/Socials_Icon/FA-Sprite.png') no-repeat 0px -60px;
-	background-size: contain;
+	background: url('../Images/Extras/Socials_Icon/FA-Sprite.png') no-repeat center;
+	background-size: 60px 120px;
+	background-position: 0px -60px;
 	overflow: hidden;
 	float: right;
 	display: block;
 	color: #f2f2f2;
-	width: 4vw;
-	min-width: 50px;
-	height: 4vw;
-	min-height: 50px;
+	width: 60px;
+	height: 60px;
 	text-decoration: none;
 }
 
 .FA:hover {
-	background: #ddd;
-	background: url('../Images/Extras/Socials_Icon/FA-Sprite.png') no-repeat 0px 0px;
-	background-size: contain;
+	background: url('../Images/Extras/Socials_Icon/FA-Sprite.png') no-repeat center;
+	background-size: 60px 120px;
+	background-position: 0px 0px;
 	overflow: hidden;
 	float: right;
 	display: block;
-	width: 4vw;
-	min-width: 50px;
-	height: 4vw;
-	min-height: 50px;
+	width: 60px;
+	height: 60px;
 }
 
 .YT {
-	background: url('../Images/Extras/Socials_Icon/YT-Sprite.png') no-repeat 0px -60px;
-	background-size: contain;
+	background: url('../Images/Extras/Socials_Icon/YT-Sprite.png') no-repeat center;
+	background-size: 60px 120px;
+	background-position: 0px -60px;
 	overflow: hidden;
 	float: right;
 	display: block;
 	color: #f2f2f2;
-	width: 4vw;
-	min-width: 50px;
-	height: 4vw;
-	min-height: 50px;
+	width: 60px;
+	height: 60px;
 	text-decoration: none;
 }
 
 .YT:hover {
-	background: #ddd;
-	background: url('../Images/Extras/Socials_Icon/YT-Sprite.png') no-repeat 0px 0px;
-	background-size: contain;
+	background: url('../Images/Extras/Socials_Icon/YT-Sprite.png') no-repeat center;
+	background-size: 60px 120px;
+	background-position: 0px 0px;
 	overflow: hidden;
 	float: right;
 	display: block;
-	width: 4vw;
-	min-width: 50px;
-	height: 4vw;
-	min-height: 50px;
+	width: 60px;
+	height: 60px;
 }
 
 h3 {
@@ -864,4 +856,5 @@ img.PE {
 	75% {background-position-x: -180px;}
 	100% {background-position-x: 0px;}
 }
+
 
