@@ -573,16 +573,17 @@ li {
 
 .Suggestions {
 	
-	overflow: hidden;
-	background-color: #333;
-	bottom: 0;
-	margin-bottom: -10px;
-	width: 120%;
-	min-height: 100px;
-	text-align: center;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Stick it to the viewport bottom */
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 	
 }
 
@@ -1072,6 +1073,7 @@ img.PE {
 	100% {background-position-x: 0px;}
 	
 }
+
 
 
 
