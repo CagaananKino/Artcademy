@@ -1,21 +1,10 @@
 Body {
 	background-image: url("../Images/Extras/Background.png");
 	background-position: center;
-	margin: 0;
-	padding: 0;
-}
-
-html {
-	margin: 0;
-	padding: 0;
 }
 
 div {
 	font-family: Comic Sans MS;
-}
-
-* {
-	box-sizing: border-box;
 }
 
 .Icon {
@@ -34,8 +23,7 @@ nav {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	left: 0;
-	margin: 0;
+	margin-left: -8px;
 	z-index: 1000;
 }
 
@@ -879,6 +867,7 @@ img.PE {
 	75% {background-position-x: -180px;}
 	100% {background-position-x: 0px;}
 }
+
 
 
 
