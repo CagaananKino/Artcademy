@@ -354,6 +354,10 @@ a {
 
 .IES {
 	margin: auto;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .Wording-A {
@@ -380,7 +384,8 @@ a {
 
 .LS-Examples {
 	text-align: center;
-	margin-right: 2%;
+	margin-right: 0;
+	margin-bottom: 10px;
 }
 
 .Lessons {
@@ -557,12 +562,12 @@ h3 {
 img.PE {
 	border: 5px solid black;
 	border-radius: 20px;
-	width: 90%;
-	max-width: 350px;
-	height: auto;
-	aspect-ratio: 1;
+	width: 350px;
+	height: 350px;
 	object-fit: cover;
 	text-align: center;
+	display: block;
+	margin: 0 auto;
 }
 
 .EVideo {
@@ -849,5 +854,6 @@ img.PE {
 	75% {background-position-x: -180px;}
 	100% {background-position-x: 0px;}
 }
+
 
 
