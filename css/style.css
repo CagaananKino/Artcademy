@@ -287,42 +287,39 @@ a {
 
 .Animated-AddOns {
 	display: flex;
-	padding: 1%;
-	flex-wrap: wrap;
-	gap: 2%;
-	justify-content: center;
+	padding: 10px;
 }
 
 #BL-1 {
-	background: url('../Images/Animation/BL_Anim/1.png') no-repeat 0 0;
+	background: url('../Images/Animation/BL_Anim/1.png') no-repeat 0 0; 
 }
 
 #BL-2 {
-	background: url('../Images/Animation/BL_Anim/2.png') no-repeat 0 0;
+	background: url('../Images/Animation/BL_Anim/2.png') no-repeat 0 0; 
 }
 
 #BL-3 {
-	background: url('../Images/Animation/BL_Anim/3.png') no-repeat 0 0;
+	background: url('../Images/Animation/BL_Anim/3.png') no-repeat 0 0; 
 }
 
 #IL-1 {
-	background: url('../Images/Animation/IL_Anim/1.png') no-repeat 0 0;
+	background: url('../Images/Animation/IL_Anim/1.png') no-repeat 0 0; 
 }
 
 #IL-2 {
-	background: url('../Images/Animation/IL_Anim/2.png') no-repeat 0 0;
+	background: url('../Images/Animation/IL_Anim/2.png') no-repeat 0 0; 
 }
 
 #EL-1 {
-	background: url('../Images/Animation/EL_Anim/1.png') no-repeat 0 0;
+	background: url('../Images/Animation/EL_Anim/1.png') no-repeat 0 0; 
 }
 
 #EL-2 {
-	background: url('../Images/Animation/EL_Anim/2.png') no-repeat 0 0;
+	background: url('../Images/Animation/EL_Anim/2.png') no-repeat 0 0; 
 }
 
 #EL-3 {
-	background: url('../Images/Animation/EL_Anim/3.png') no-repeat 0 0;
+	background: url('../Images/Animation/EL_Anim/3.png') no-repeat 0 0; 
 }
 
 .Anim {
@@ -866,14 +863,3 @@ img.PE {
 	75% {background-position-x: -180px;}
 	100% {background-position-x: 0px;}
 }
-
-
-
-
-
-
-
-
-
-
-
