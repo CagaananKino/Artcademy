@@ -581,7 +581,6 @@ li {
 	min-height: 100px;
 	text-align: center;
 	padding: 2%;
-	position: relative;
 	
 }
 
@@ -1071,6 +1070,7 @@ img.PE {
 	100% {background-position-x: 0px;}
 	
 }
+
 
 
 
