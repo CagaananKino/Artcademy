@@ -575,8 +575,9 @@ img.PE {
 	margin: auto;
 	border: 3px solid black;
 	width: 90%;
-	max-width: 640px;
-	aspect-ratio: 16/9;
+	width: 640px;
+	height: 366px;
+	overflow: hidden;
 }
 
 .EVideo iframe,
@@ -854,6 +855,7 @@ img.PE {
 	75% {background-position-x: -180px;}
 	100% {background-position-x: 0px;}
 }
+
 
 
 
