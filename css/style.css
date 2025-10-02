@@ -461,7 +461,6 @@ li {
 	overflow: hidden;
 	background-color: #333;
 	bottom: 0;
-	margin-left: -8px;
 	margin-bottom: -10px;
 	width: 100%;
 	min-height: 100px;
@@ -866,6 +865,7 @@ img.PE {
 	75% {background-position-x: -180px;}
 	100% {background-position-x: 0px;}
 }
+
 
 
 
