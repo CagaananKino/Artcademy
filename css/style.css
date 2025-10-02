@@ -577,7 +577,7 @@ li {
 	background-color: #333;
 	bottom: 0;
 	margin-bottom: -10px;
-	width: 100%;
+	width: 120%;
 	min-height: 100px;
 	text-align: center;
 	display: flex;
@@ -1072,6 +1072,7 @@ img.PE {
 	100% {background-position-x: 0px;}
 	
 }
+
 
 
 
