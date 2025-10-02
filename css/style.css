@@ -8,6 +8,13 @@ Body {
 	
 }
 
+html, body {
+	
+  margin: 0;
+  padding: 0;
+	
+}
+
 div {
 	
 	font-family: Comic Sans MS;
@@ -1069,6 +1076,7 @@ img.PE {
 	100% {background-position-x: 0px;}
 	
 }
+
 
 
 
