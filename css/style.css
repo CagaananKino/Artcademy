@@ -29,6 +29,7 @@ div {
 	min-height: 40px;
 	float: left;
 	padding: 0.5%;
+	margin-left: 10px;
 	
 }
 
@@ -593,9 +594,10 @@ li {
 }
 
 .Suggestions h1 {
-	
+
 	margin: 0;
-	padding: 0;
+  	padding-top: 40px;
+  	text-align: center;
 	
 }
 
@@ -1078,6 +1080,7 @@ img.PE {
 	100% {background-position-x: 0px;}
 	
 }
+
 
 
 
