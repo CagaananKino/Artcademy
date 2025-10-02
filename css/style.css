@@ -1,27 +1,25 @@
 Body {
-
-	Background-image: url("../Images/Extras/Background.png");
-	Background-position: center;
-
+	background-image: url("../Images/Extras/Background.png");
+	background-position: center;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
 }
 
 div {
-	
 	font-family: Comic Sans MS;
-	
 }
 
 .Icon {
-	
-	width: 50px;
-	height: 50px;
+	width: 3vw;
+	min-width: 40px;
+	height: 3vw;
+	min-height: 40px;
 	float: left;
-	padding: 5px;
-	
+	padding: 0.5%;
 }
 
 nav {
-	
 	font-family: Comic Sans MS;
 	overflow: hidden;
 	background-color: #333;
@@ -29,888 +27,843 @@ nav {
 	top: 0;
 	width: 100%;
 	margin-left: -8px;
-
+	z-index: 1000;
 }
 
 .Main a {
-	
 	float: left;
 	display: block;
 	color: #f2f2f2;
 	text-align: center;
-	padding: 15px 15px;
+	padding: 1% 1.5%;
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 1.25rem;
 	transition: padding 0.5s;
-
 }
 
 .Main a:hover {
-	
-	padding: 25px 25px;
+	padding: 2% 2.5%;
 	background: #ddd;
 	color: black;
-
 }
 
 .Contacts {
-	
 	background: #181818;
 	border: 5px solid #181818;
-	width: 800px;
+	width: 90%;
+	max-width: 800px;
 	margin: auto;
-	padding: 30px;
-	margin-top: 100px;
+	padding: 3%;
+	margin-top: 8%;
 	color: #E7E7E7;
-	height: 80%;
-	
+	min-height: 60vh;
 }
 
 .Contacts a {
-	
 	float: left;
 	display: block;
 	color: #f2f2f2;
 	text-align: center;
-	padding: 15px 15px;
+	padding: 1% 1.5%;
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 1.25rem;
 	transition: background 0.5s, color 0.5s;
-
 }
 
 .Contacts a:hover {
-	
 	background: #f2f2f2;
 	color: black;
-
 }
 
 .Contacts img {
-	
-	width: 60px;
-	height: 60px;
-	
+	width: 4vw;
+	min-width: 50px;
+	height: 4vw;
+	min-height: 50px;
 }
 
 .Bar {
-	
 	background-image: url('../Images/Extras/Bar.png');
-	
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 .Bar-B {
-	
 	background-image: url('../Images/Extras/Beginner_Bar.png');
-	
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 .Bar-I {
-	
 	background-image: url('../Images/Extras/Intermediate_Bar.png');
-	
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 .Bar-E {
-	
 	background-image: url('../Images/Extras/Expert_Bar.png');
-	
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 .Bar-G {
-	
 	background-image: url('../Images/Extras/General_Bar.png');
-	
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 .Socials {
-	
 	display: flex;
-	
+	flex-wrap: wrap;
+	gap: 2%;
 }
 
 .Contributions {
-	
-	margin-left: 50px;
-	
+	margin-left: 5%;
 }
 
 .Title {
-
 	background-color: white;
-	width: 500px;
-	height: 250px;
+	width: 90%;
+	max-width: 500px;
+	min-height: 250px;
 	border: dotted black 5px;
 	border-radius: 25px;
 	margin: auto;
-	margin-top: 50px;
+	margin-top: 5%;
 	text-align: center;
+	padding: 2%;
+}
 
-}	
-
-.About {		
-		
+.About {
 	margin: auto;
 	text-align: center;
-	width: 700px;
+	width: 90%;
+	max-width: 700px;
 	border: solid black 3px;
 	border-radius: 25px;
 	background-color: white;
-	padding: 20px;
-	margin-top: 50px;
-	
+	padding: 2%;
+	margin-top: 5%;
 }
 
 .Links {
-	
 	text-align: left;
-	font-size: 10pt;
-
+	font-size: 0.875rem;
 }
 
 .Preview {
-	
 	display: flex;
-	width: 75%;
+	width: 90%;
+	max-width: 1200px;
 	margin: auto;
-	
+	flex-wrap: wrap;
+	gap: 2%;
+	justify-content: center;
 }
 
-img.PI{
-	
+img.PI {
 	border: 3px solid black;
 	border-radius: 20px;
-	
+	width: 100%;
+	max-width: 250px;
+	height: auto;
+	aspect-ratio: 5/8;
+	object-fit: cover;
 }
-
 
 .Beginner {
-	
 	border: 3px solid black;
 	border-radius: 20px;
-	padding: 20px;
-	width: 250px;
+	padding: 2%;
+	width: 90%;
+	max-width: 250px;
 	text-align: center;
 	background-color: #7aff7d;
-
+	margin: 2% auto;
 }
 
 .Intermediate {
-	
 	border: 3px solid black;
 	border-radius: 20px;
-	padding: 20px;
-	margin: auto;
+	padding: 2%;
+	margin: 2% auto;
 	text-align: center;
-	width: 250px;
+	width: 90%;
+	max-width: 250px;
 	background-color: #fffb7a;
-	
 }
 
 .Expert {
-
 	border: 3px solid black;
 	border-radius: 20px;
-	padding: 20px;
-	width: 250px;
+	padding: 2%;
+	width: 90%;
+	max-width: 250px;
 	text-align: center;
-	float: right;
+	margin: 2% auto;
 	background-color: #ff7a7a;
-	
-}
-
-.PI {
-	
-	width: 250px;
-	height: 400px;
-	
 }
 
 .Confirm {
-	
 	background-color: white;
 	border: 3px solid black;
 	border-radius: 20px;
-	width: 400px;
+	width: 90%;
+	max-width: 400px;
 	margin: auto;
-	margin-top: 30px;
-	
+	margin-top: 3%;
+	padding: 2%;
 }
 
 .GS {
-	
 	border: 10px solid black;
 	border-radius: 20px;
 	text-align: center;
-	margin: auto;
-	padding: 200px;
-	width: 700px;
+	margin: 5% auto;
+	padding: 15%;
+	width: 90%;
+	max-width: 700px;
 	background-image: url("../Images/Home_Images/Portal.png");
-	
+	background-size: cover;
+	background-position: center;
 }
 
-.GS a{
-	
+.GS a {
 	border: 2px solid black;
 	background-color: green;
 	border-radius: 20px;
 	color: black;
 	text-align: center;
-	padding: 15px 15px;
+	padding: 1.5% 2%;
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 1.25rem;
 	transition: padding 0.5s;
-
+	display: inline-block;
 }
 
-.GS a:hover{
-	
-	padding: 40px 40px;
+.GS a:hover {
+	padding: 3% 4%;
 	background-image: url("../Images/Home_Images/Portal.png");
+	background-size: cover;
 	color: black;
-	width: 300px;
-	margin: auto;
-	
+	width: auto;
+	max-width: 300px;
 }
 
 a {
-	
 	text-decoration: none;
 	color: black;
 }
 
 .TV1 {
-	
 	background-color: white;
-	width: 500px;
-	height: 280px;
+	width: 90%;
+	max-width: 500px;
+	min-height: 280px;
 	border: dotted black 5px;
 	border-radius: 25px;
 	margin: auto;
-	margin-top: 50px;
+	margin-top: 5%;
 	text-align: center;
-	padding: 15px;
-	
+	padding: 2%;
 }
 
 .TV2 {
-	
 	background-color: white;
-	width: 500px;
-	height: 190px;
+	width: 90%;
+	max-width: 500px;
+	min-height: 190px;
 	border: dotted black 5px;
 	border-radius: 25px;
 	margin: auto;
-	margin-top: 50px;
+	margin-top: 5%;
 	text-align: center;
-	padding: 15px;
-	
+	padding: 2%;
 }
 
 .caption {
-
 	display: flex;
-	padding: 10px;
+	padding: 1%;
 	font-weight: bold;
-	
+	flex-wrap: wrap;
 }
 
 #cap {
-	
 	margin: auto;
-	
 }
 
 .Animated-AddOns {
-	
 	display: flex;
-	padding: 10px;
-	
+	padding: 1%;
+	flex-wrap: wrap;
+	gap: 2%;
+	justify-content: center;
 }
 
-#BL-1{
-
-	background: url('../Images/Animation/BL_Anim/1.png') no-repeat 0 0; 
-	
+#BL-1 {
+	background: url('../Images/Animation/BL_Anim/1.png') no-repeat 0 0;
+	background-size: contain;
 }
 
-#BL-2{
-
-	background: url('../Images/Animation/BL_Anim/2.png') no-repeat 0 0; 
-	
+#BL-2 {
+	background: url('../Images/Animation/BL_Anim/2.png') no-repeat 0 0;
+	background-size: contain;
 }
 
-#BL-3{
-
-	background: url('../Images/Animation/BL_Anim/3.png') no-repeat 0 0; 
-	
+#BL-3 {
+	background: url('../Images/Animation/BL_Anim/3.png') no-repeat 0 0;
+	background-size: contain;
 }
 
-#IL-1{
-
-	background: url('../Images/Animation/IL_Anim/1.png') no-repeat 0 0; 
-	
+#IL-1 {
+	background: url('../Images/Animation/IL_Anim/1.png') no-repeat 0 0;
+	background-size: contain;
 }
 
-#IL-2{
-
-	background: url('../Images/Animation/IL_Anim/2.png') no-repeat 0 0; 
-	
+#IL-2 {
+	background: url('../Images/Animation/IL_Anim/2.png') no-repeat 0 0;
+	background-size: contain;
 }
 
-#EL-1{
-
-	background: url('../Images/Animation/EL_Anim/1.png') no-repeat 0 0; 
-	
+#EL-1 {
+	background: url('../Images/Animation/EL_Anim/1.png') no-repeat 0 0;
+	background-size: contain;
 }
 
-#EL-2{
-
-	background: url('../Images/Animation/EL_Anim/2.png') no-repeat 0 0; 
-	
+#EL-2 {
+	background: url('../Images/Animation/EL_Anim/2.png') no-repeat 0 0;
+	background-size: contain;
 }
 
-#EL-3{
-
-	background: url('../Images/Animation/EL_Anim/3.png') no-repeat 0 0; 
-	
+#EL-3 {
+	background: url('../Images/Animation/EL_Anim/3.png') no-repeat 0 0;
+	background-size: contain;
 }
 
-.Anim{
-	
+.Anim {
 	margin: auto;
-	width: 60px;
-	height: 60px;
+	width: 4vw;
+	min-width: 50px;
+	height: 4vw;
+	min-height: 50px;
 	animation-name: Animation;
 	animation-duration: 4s;
 	animation-iteration-count: infinite;
 }
 
 .Beginner-S {
-	
 	border: 3px solid black;
 	border-radius: 20px;
-	padding: 20px;
+	padding: 2%;
 	margin: auto;
-	width: 700px;
+	width: 90%;
+	max-width: 700px;
 	background-color: #7aff7d;
-	margin-top: 50px;
-	
+	margin-top: 5%;
 }
 
 .words {
-	
 	display: flex;
-	
+	flex-wrap: wrap;
+	gap: 2%;
+	justify-content: center;
 }
 
 .IES {
-
 	margin: auto;
-	
 }
 
 .Wording-A {
-	
-	margin-left: 20px; 
-	border:2px black solid; 
-	background-color: white; 
-	width: 190px; 
-	padding: 20px; 
-	border-radius: 20px; 
+	margin: 2%;
+	border: 2px black solid;
+	background-color: white;
+	width: 90%;
+	max-width: 190px;
+	padding: 2%;
+	border-radius: 20px;
 	text-align: center;
-		
 }
 
 .Wording-B {
-	
-	margin-left: 20px; 
-	border:2px black solid; 
-	background-color: white; 
-	width: 190px; 
-	padding: 20px; 
-	border-radius: 20px; 
+	margin: 2%;
+	border: 2px black solid;
+	background-color: white;
+	width: 90%;
+	max-width: 190px;
+	padding: 2%;
+	border-radius: 20px;
 	text-align: center;
-		
 }
 
 .LS-Examples {
-
 	text-align: center;
-	margin-right: 20px;
-	
+	margin-right: 2%;
 }
 
 .Lessons {
-	
 	border: 2px black solid;
-	margin-left: 20px;
-	padding: 20px;
+	margin: 2%;
+	padding: 2%;
 	border-radius: 20px;
 	background-color: white;
-	width: 360px;
-	
+	width: 90%;
+	max-width: 360px;
 }
 
 h2 {
-	
-	font-size: 25pt;
+	font-size: 1.75rem;
 	margin-top: 1px;
-	
 }
 
 li {
-	
-	margin-left: 100px;
-	font-size: 25pt;
-	
+	margin-left: 10%;
+	font-size: 1.5rem;
 }
 
 .button {
-	
 	overflow: hidden;
 	background-color: #333;
 	width: 90%;
 	border: 2px solid black;
 	background-color: green;
-	margin: auto;
+	margin: 2% auto;
 	border-radius: 20px;
-
 }
 
 .button a {
-	
 	margin: auto;
 	display: block;
 	color: #f2f2f2;
 	text-align: center;
-	padding: 15px 15px;
+	padding: 1.5% 2%;
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 1.25rem;
 	transition: padding 0.5s;
-
 }
 
 .button a:hover {
-	
-	padding: 25px 25px;
+	padding: 2.5% 3%;
 	background: #ddd;
 	color: black;
-
 }
-	
+
 .Intermediate-S {
-	
 	border: 3px solid black;
 	border-radius: 20px;
-	padding: 20px;
+	padding: 2%;
 	margin: auto;
-	width: 700px;
+	width: 90%;
+	max-width: 700px;
 	background-color: #fffb7a;
-	margin-top: 50px;
-	
+	margin-top: 5%;
 }
 
 .Expert-S {
-	
 	border: 3px solid black;
 	border-radius: 20px;
-	padding: 20px;
+	padding: 2%;
 	margin: auto;
-	width: 700px;
+	width: 90%;
+	max-width: 700px;
 	background-color: #ff7a7a;
-	margin-top: 50px;
-	
+	margin-top: 5%;
 }
 
 .Suggestions {
-	
 	overflow: hidden;
 	background-color: #333;
 	bottom: 0;
 	margin-left: -8px;
 	margin-bottom: -10px;
 	width: 100%;
-	height: 100px;
+	min-height: 100px;
 	text-align: center;
-
+	padding: 2%;
 }
 
 .BI {
-	
 	text-align: center;
-	
 }
 
 .Twitter {
-	
 	background: url('../Images/Extras/Socials_Icon/Twitter-Sprite.png') no-repeat 0px -60px;
+	background-size: contain;
 	overflow: hidden;
 	float: right;
 	display: block;
 	color: #f2f2f2;
-	width: 60px;
-	height: 60px;
+	width: 4vw;
+	min-width: 50px;
+	height: 4vw;
+	min-height: 50px;
 	text-decoration: none;
-
 }
 
 .Twitter:hover {
-	
 	background: url('../Images/Extras/Socials_Icon/Twitter-Sprite.png') no-repeat 0px 0px;
+	background-size: contain;
 	overflow: hidden;
 	float: right;
 	display: block;
-	width: 60px;
-	height: 60px;
-
+	width: 4vw;
+	min-width: 50px;
+	height: 4vw;
+	min-height: 50px;
 }
 
 .FA {
-	
 	background: url('../Images/Extras/Socials_Icon/FA-Sprite.png') no-repeat 0px -60px;
+	background-size: contain;
 	overflow: hidden;
 	float: right;
 	display: block;
 	color: #f2f2f2;
-	width: 60px;
-	height: 60px;
+	width: 4vw;
+	min-width: 50px;
+	height: 4vw;
+	min-height: 50px;
 	text-decoration: none;
-
 }
 
 .FA:hover {
-	
 	background: #ddd;
 	background: url('../Images/Extras/Socials_Icon/FA-Sprite.png') no-repeat 0px 0px;
+	background-size: contain;
 	overflow: hidden;
 	float: right;
 	display: block;
-	width: 60px;
-	height: 60px;
-
+	width: 4vw;
+	min-width: 50px;
+	height: 4vw;
+	min-height: 50px;
 }
 
 .YT {
-	
 	background: url('../Images/Extras/Socials_Icon/YT-Sprite.png') no-repeat 0px -60px;
+	background-size: contain;
 	overflow: hidden;
 	float: right;
 	display: block;
 	color: #f2f2f2;
-	width: 60px;
-	height: 60px;
+	width: 4vw;
+	min-width: 50px;
+	height: 4vw;
+	min-height: 50px;
 	text-decoration: none;
-
 }
 
 .YT:hover {
-	
 	background: #ddd;
 	background: url('../Images/Extras/Socials_Icon/YT-Sprite.png') no-repeat 0px 0px;
+	background-size: contain;
 	overflow: hidden;
 	float: right;
 	display: block;
-	width: 60px;
-	height: 60px;
-
+	width: 4vw;
+	min-width: 50px;
+	height: 4vw;
+	min-height: 50px;
 }
 
 h3 {
-	
-	font-size: 30pt;
-	margin-left: 20px;
-	margin-top: 10px;
-	
+	font-size: 2rem;
+	margin-left: 2%;
+	margin-top: 1%;
 }
 
-img.PE{
-	
+img.PE {
 	border: 5px solid black;
 	border-radius: 20px;
-	width: 350px;
-	height: 350px;
+	width: 90%;
+	max-width: 350px;
+	height: auto;
+	aspect-ratio: 1;
+	object-fit: cover;
 	text-align: center;
-	
 }
 
 .EVideo {
-	
-	Text-align: center;
+	text-align: center;
 	margin: auto;
 	border: 3px solid black;
-	width: 640px;
-	height: 360px;
-	
+	width: 90%;
+	max-width: 640px;
+	aspect-ratio: 16/9;
+}
+
+.EVideo iframe,
+.EVideo video {
+	width: 100%;
+	height: 100%;
 }
 
 .Title-Beginner-Lesson {
-	
 	background-color: #7aff7d;
-	width: 800px;
-	height: 250px;
+	width: 90%;
+	max-width: 800px;
+	min-height: 250px;
 	border: dotted black 5px;
 	border-radius: 25px;
 	margin: auto;
 	text-align: center;
-	margin-top: 50px;
-	
+	margin-top: 5%;
+	padding: 2%;
 }
 
 .Title-Intermediate-Lesson {
-	
 	background-color: #fffb7a;
-	width: 800px;
-	height: 250px;
+	width: 90%;
+	max-width: 800px;
+	min-height: 250px;
 	border: dotted black 5px;
 	border-radius: 25px;
 	margin: auto;
 	text-align: center;
-	margin-top: 50px;
-	
+	margin-top: 5%;
+	padding: 2%;
 }
 
 .Title-Expert-Lesson {
-	
 	background-color: #ff7a7a;
-	width: 800px;
-	height: 250px;
+	width: 90%;
+	max-width: 800px;
+	min-height: 250px;
 	border: dotted black 5px;
 	border-radius: 25px;
 	margin: auto;
 	text-align: center;
-	margin-top: 50px;
-	
+	margin-top: 5%;
+	padding: 2%;
 }
 
 .Lesson-Overview {
-	
 	border: 3px solid black;
 	border-radius: 20px;
 	background: white;
-	width: 600px;
+	width: 90%;
+	max-width: 600px;
 	margin: auto;
-	margin-top: 50px;
-	
+	margin-top: 5%;
+	padding: 2%;
 }
 
 .Lesson-Overall {
-	
 	border: 3px solid black;
 	border-radius: 20px;
-	padding: 20px;
+	padding: 2%;
 	background: #D2FFDA;
-	width: 75%;
+	width: 90%;
+	max-width: 1200px;
 	margin: auto;
-	margin-top: 50px;
-	
+	margin-top: 5%;
 }
 
 .Lesson-Overall2 {
-	
 	border: 3px solid black;
 	border-radius: 20px;
-	padding: 20px;
+	padding: 2%;
 	background: #FFFBD2;
-	width: 75%;
+	width: 90%;
+	max-width: 1200px;
 	margin: auto;
-	margin-top: 50px;
-	
+	margin-top: 5%;
 }
 
 .Lesson-Overall3 {
-	
 	border: 3px solid black;
 	border-radius: 20px;
-	padding: 20px;
+	padding: 2%;
 	background: #FFD2D4;
-	width: 75%;
+	width: 90%;
+	max-width: 1200px;
 	margin: auto;
-	margin-top: 50px;
-	
+	margin-top: 5%;
 }
 
 .Lesson-Explain {
-	
-	text-align: center;	
-	padding: 20px;
-	
+	text-align: center;
+	padding: 2%;
 }
 
 .Lesson-Show {
-	
-	width: 600px;
-	margin-left: 50px;
+	width: 90%;
+	max-width: 600px;
+	margin: 2% auto;
 	text-align: center;
-	margin: auto;
 	border: 5px solid black;
 	border-radius: 20px;
-	padding: 10px;
-	margin-top: 20px;
+	padding: 1%;
 	background-color: white;
-	
 }
 
 .Explanation {
-	
 	display: flex;
-	
+	flex-wrap: wrap;
+	gap: 2%;
+	justify-content: center;
 }
 
 .ExplainN-1 {
-	
 	margin: auto;
 	text-align: center;
-	
+	flex: 1;
+	min-width: 300px;
 }
 
-.ExplainN-1 p{
-	
-	width: 400px;
-	
+.ExplainN-1 p {
+	width: 90%;
+	max-width: 400px;
+	margin: auto;
 }
 
 .ExplainN-1 img {
-	
 	border: 2px solid black;
 	border-radius: 20px;
-	
+	max-width: 100%;
+	height: auto;
 }
 
 .Video-Texts {
-
 	text-align: center;
-	margin: auto;
+	margin: 2% auto;
 	border: 4px solid black;
 	border-radius: 20px;
-	width: 75%;
-	
+	width: 90%;
+	max-width: 1200px;
+	padding: 2%;
 }
 
 #B1 {
-	
 	background: #1B85BB;
 	color: white;
-	
 }
 
 #B2 {
-
 	background: #FAE8D9;
 	color: black;
-	
 }
 
 #B3 {
-	
 	background: #E9BEA5;
 	color: black;
-	
 }
 
 #B4 {
-	
 	background: #D0D6DD;
 	color: black;
-	
 }
 
 #B5 {
-	
 	background: #323234;
 	color: white;
-	
 }
 
 #B6 {
-
 	background: #111111;
 	color: white;
-	
 }
 
 .Video {
-
 	border: 3px solid black;
-	width: 1080px; 
-	height: 608px;
-	margin: auto;
-	
+	width: 90%;
+	max-width: 1080px;
+	aspect-ratio: 16/9;
+	margin: 2% auto;
+}
+
+.Video iframe,
+.Video video {
+	width: 100%;
+	height: 100%;
 }
 
 .B-Relate {
-
 	border: 2px solid black;
 	border-radius: 25px;
-	padding: 20px;
+	padding: 2%;
 	background-color: #D2FFDA;
-	
+	margin: 2% 0;
 }
 
 .I-Relate {
-
 	border: 2px solid black;
 	border-radius: 25px;
-	padding: 20px;
+	padding: 2%;
 	background-color: #fffb7a;
-	
+	margin: 2% 0;
 }
 
 .E-Relate {
-	
 	border: 2px solid black;
 	border-radius: 25px;
-	padding: 20px;
+	padding: 2%;
 	background-color: #ff7a7a;
-	
+	margin: 2% 0;
 }
 
-.B-Relate a{
-	
+.B-Relate a {
 	text-decoration: underline;
 	color: green;
-	
 }
 
-.B-Relate a:hover{
-	
+.B-Relate a:hover {
 	color: white;
-	
 }
 
-
-.I-Relate a{
-	
+.I-Relate a {
 	text-decoration: underline;
 	color: #908C44;
-	
 }
 
-.I-Relate a:hover{
-	
+.I-Relate a:hover {
 	color: white;
-	
 }
 
-.E-Relate a{
-	
+.E-Relate a {
 	text-decoration: underline;
 	color: red;
-	
 }
 
-.E-Relate a:hover{
-	
+.E-Relate a:hover {
 	color: white;
+}
+
+/* Mobile Responsive Adjustments */
+@media (max-width: 768px) {
+	.Main a {
+		font-size: 1rem;
+		padding: 2% 2%;
+	}
 	
+	h2 {
+		font-size: 1.5rem;
+	}
+	
+	h3 {
+		font-size: 1.75rem;
+	}
+	
+	li {
+		font-size: 1.25rem;
+		margin-left: 5%;
+	}
+	
+	.Preview {
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.Beginner, .Intermediate, .Expert {
+		width: 90%;
+		max-width: none;
+	}
 }
 
 @keyframes Animation {
-	
-	0% {background-position-x: 0px;} 
+	0% {background-position-x: 0px;}
 	25% {background-position-x: -60px;}
 	50% {background-position-x: -120px;}
 	75% {background-position-x: -180px;}
 	100% {background-position-x: 0px;}
-
 }
