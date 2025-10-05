@@ -281,8 +281,8 @@ img.PI {
 	border-radius: 20px;
 	text-align: center;
 	margin: auto;
-	padding: 200px;
-	width: 700px;
+	padding: 10%;
+	width: 90%;
 	background-image: url("../Images/Home_Images/Portal.png");
 	
 }
@@ -1081,6 +1081,7 @@ img.PE {
 	100% {background-position-x: 0px;}
 	
 }
+
 
 
 
