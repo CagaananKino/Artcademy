@@ -709,8 +709,8 @@ img.PE {
 	text-align: center;
 	margin: auto;
 	border: 3px solid black;
-	width: 640px;
-	height: 360px;
+	width: 59.26%;
+	height: 18.75%;
 	line-height: 0;
 	font-size: 0;
 	padding: 0;
@@ -720,8 +720,8 @@ img.PE {
 .EVideo iframe,
 .EVideo video {
 	
-	width: 640px;
-	height: 360px;
+	width: 59.26%;
+	height: 18.75%;
 	display: block;
 	border: none;
 	margin: 0;
@@ -938,8 +938,8 @@ img.PE {
 .Video {
 	
 	border: 3px solid black;
-	width: 1080px; 
-	height: 608px;
+	width: 56.25%; 
+	height: 56.3%;
 	margin: auto;
 	line-height: 0;
 	font-size: 0;
@@ -950,8 +950,8 @@ img.PE {
 .Video iframe,
 .Video video {
 	
-	width: 1080px;
-	height: 608px;
+	width: 56.25%; 
+	height: 56.3%;
 	display: block;
 	border: none;
 	margin: 0;
@@ -1082,6 +1082,7 @@ img.PE {
 	100% {background-position-x: 0px;}
 	
 }
+
 
 
 
