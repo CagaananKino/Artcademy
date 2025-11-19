@@ -944,7 +944,7 @@ img.PE {
 	
 	border: 3px solid black;
 	width: 100%;
-	max-width: 640px;
+	max-width: 1080px;
 	margin: auto;
 	line-height: 0;
 	font-size: 0;
@@ -1095,5 +1095,6 @@ img.PE {
 	100% {background-position-x: 0px;}
 	
 }
+
 
 
