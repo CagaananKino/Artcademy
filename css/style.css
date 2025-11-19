@@ -592,6 +592,10 @@ li {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
 	
 }
 
@@ -714,6 +718,8 @@ img.PE {
 	line-height: 0;
 	font-size: 0;
 	padding: 0;
+	display: block;
+	overflow: hidden;
 	
 }
 
@@ -726,6 +732,7 @@ img.PE {
 	border: none;
 	margin: 0;
 	padding: 0;
+	vertical-align: bottom;
 	
 }
 
