@@ -3,15 +3,15 @@ Body {
 	background-image: url("../Images/Extras/Background.png");
 	background-position: center;
 	margin: 0;
-  	padding: 0;
+	padding: 0;
 	overflow-x: hidden;
 	
 }
 
 html, body {
 	
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 	
 }
 
@@ -373,25 +373,25 @@ a {
 
 #BL-1 {
 	
-	background: url('../Images/Animation/BL_Anim/1.png') no-repeat 0 0; 
+	background: url('../Images/Animation/BL_Anim/1.png') no-repeat 0 0;
 	
 }
 
 #BL-2 {
 	
-	background: url('../Images/Animation/BL_Anim/2.png') no-repeat 0 0; 
+	background: url('../Images/Animation/BL_Anim/2.png') no-repeat 0 0;
 	
 }
 
 #BL-3 {
 	
-	background: url('../Images/Animation/BL_Anim/3.png') no-repeat 0 0; 
+	background: url('../Images/Animation/BL_Anim/3.png') no-repeat 0 0;
 	
 }
 
 #IL-1 {
 	
-	background: url('../Images/Animation/IL_Anim/1.png') no-repeat 0 0; 
+	background: url('../Images/Animation/IL_Anim/1.png') no-repeat 0 0;
 	
 }
 
@@ -403,19 +403,19 @@ a {
 
 #EL-1 {
 	
-	background: url('../Images/Animation/EL_Anim/1.png') no-repeat 0 0; 
+	background: url('../Images/Animation/EL_Anim/1.png') no-repeat 0 0;
 	
 }
 
 #EL-2 {
 	
-	background: url('../Images/Animation/EL_Anim/2.png') no-repeat 0 0; 
+	background: url('../Images/Animation/EL_Anim/2.png') no-repeat 0 0;
 	
 }
 
 #EL-3 {
 	
-	background: url('../Images/Animation/EL_Anim/3.png') no-repeat 0 0; 
+	background: url('../Images/Animation/EL_Anim/3.png') no-repeat 0 0;
 	
 }
 
@@ -583,23 +583,23 @@ li {
 
 .Suggestions {
 	
-    overflow: hidden;
-    background-color: #333;
-    width: 100%;
-	height: 60px
-    min-height: 50px;
-    text-align: center;
+	overflow: hidden;
+	background-color: #333;
+	width: 100%;
+	height: 60px;
+	min-height: 50px;
+	text-align: center;
 	display: flex;
-    justify-content: center;
-    align-items: center;
+	justify-content: center;
+	align-items: center;
 	
 }
 
 .Suggestions h1 {
-
+	
 	margin: 0;
-  	padding: 5%;
-  	text-align: center;
+	padding: 5%;
+	text-align: center;
 	
 }
 
@@ -619,7 +619,7 @@ li {
 	width: 60px;
 	height: 60px;
 	text-decoration: none;
-
+	
 }
 
 .Twitter:hover {
@@ -630,7 +630,7 @@ li {
 	display: block;
 	width: 60px;
 	height: 60px;
-
+	
 }
 
 .FA {
@@ -643,7 +643,7 @@ li {
 	width: 60px;
 	height: 60px;
 	text-decoration: none;
-
+	
 }
 
 .FA:hover {
@@ -655,7 +655,7 @@ li {
 	display: block;
 	width: 60px;
 	height: 60px;
-
+	
 }
 
 .YT {
@@ -668,7 +668,7 @@ li {
 	width: 60px;
 	height: 60px;
 	text-decoration: none;
-
+	
 }
 
 .YT:hover {
@@ -680,7 +680,7 @@ li {
 	display: block;
 	width: 60px;
 	height: 60px;
-
+	
 }
 
 h3 {
@@ -939,8 +939,8 @@ img.PE {
 	
 	border: 3px solid black;
 	width: 100%;
-    max-width: 640px;
-    margin: auto;
+	max-width: 640px;
+	margin: auto;
 	line-height: 0;
 	font-size: 0;
 	padding: 0;
@@ -951,7 +951,7 @@ img.PE {
 .Video video {
 	
 	width: 100%;
-    aspect-ratio: 16 / 9;
+	aspect-ratio: 16 / 9;
 	display: block;
 	border: none;
 	margin: 0;
@@ -1012,7 +1012,7 @@ img.PE {
 .I-Relate a:hover {
 	
 	color: white;
-
+	
 }
 
 .E-Relate a {
@@ -1030,94 +1030,63 @@ img.PE {
 
 /* Mobile Responsive Adjustments */
 @media (max-width: 768px) {
-
-    .Contacts, .Title, .About, .Beginner-S,
-    .Intermediate-S, .Expert-S, .Lesson-Overall,
-    .Lesson-Overall2, .Lesson-Overall3 {
-        width: 95%;
-        padding: 4%;
-    }
-
-    .Icon {
-        width: 50px;
-        height: 50px;
-        padding: 1%;
-    }
-
-    nav .Main a {
-        padding: 3% 2%;
-        font-size: 1rem;
-    }
-
-    h2 {
-        font-size: 1.4rem;
-    }
-
-    h3 {
-        font-size: 1.5rem;
-    }
-
-    .Preview {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .Beginner, .Intermediate, .Expert {
-        max-width: 300px;
-        width: 100%;
-    }
-
-    .Video,
-    .EVideo {
-        width: 100%;
-        max-width: 600px;
-    }
-
-    .Video iframe,
-    .EVideo iframe {
-        width: 100%;
-        aspect-ratio: 16 / 9;
-    }
+	
+	.Contacts, .Title, .About, .Beginner-S,
+	.Intermediate-S, .Expert-S, .Lesson-Overall,
+	.Lesson-Overall2, .Lesson-Overall3 {
+		width: 95%;
+		padding: 4%;
+	}
+	
+	.Icon {
+		width: 50px;
+		height: 50px;
+		padding: 1%;
+	}
+	
+	nav .Main a {
+		padding: 3% 2%;
+		font-size: 1rem;
+	}
+	
+	h2 {
+		font-size: 1.4rem;
+	}
+	
+	h3 {
+		font-size: 1.5rem;
+	}
+	
+	.Preview {
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.Beginner, .Intermediate, .Expert {
+		max-width: 300px;
+		width: 100%;
+	}
+	
+	.Video,
+	.EVideo {
+		width: 100%;
+		max-width: 600px;
+	}
+	
+	.Video iframe,
+	.EVideo iframe {
+		width: 100%;
+		aspect-ratio: 16 / 9;
+	}
+	
 }
 
 @keyframes Animation {
 	
-	0% {background-position-x: 0px;} 
+	0% {background-position-x: 0px;}
 	25% {background-position-x: -60px;}
 	50% {background-position-x: -120px;}
 	75% {background-position-x: -180px;}
 	100% {background-position-x: 0px;}
 	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
