@@ -23,9 +23,9 @@ div {
 
 .Icon {
 	
-	width: 3vw;
+	width: clamp(40px, 3vw, 60px);
 	min-width: 40px;
-	height: 3vw;
+	height: clamp(40px, 3vw, 60px);
 	min-height: 40px;
 	float: left;
 	padding: 0.5%;
@@ -938,9 +938,9 @@ img.PE {
 .Video {
 	
 	border: 3px solid black;
-	width: 56.25%; 
-	height: 56.3%;
-	margin: auto;
+	width: 100%;
+    max-width: 640px;
+    margin: auto;
 	line-height: 0;
 	font-size: 0;
 	padding: 0;
@@ -950,8 +950,8 @@ img.PE {
 .Video iframe,
 .Video video {
 	
-	width: 56.25%; 
-	height: 56.3%;
+	width: 100%;
+    aspect-ratio: 16 / 9;
 	display: block;
 	border: none;
 	margin: 0;
@@ -1030,47 +1030,54 @@ img.PE {
 
 /* Mobile Responsive Adjustments */
 @media (max-width: 768px) {
-	
-	.Main a {
-		
-		font-size: 1rem;
-		padding: 2% 2%;
-		
-	}
-	
-	h2 {
-		
-		font-size: 1.5rem;
-		
-	}
-	
-	h3 {
-		
-		font-size: 1.75rem;
-		
-	}
-	
-	li {
-		
-		font-size: 1.25rem;
-		margin-left: 5%;
-		
-	}
-	
-	.Preview {
-		
-		flex-direction: column;
-		align-items: center;
-		
-	}
-	
-	.Beginner, .Intermediate, .Expert {
-		
-		width: 90%;
-		max-width: none;
-		
-	}
-	
+
+    .Contacts, .Title, .About, .Beginner-S,
+    .Intermediate-S, .Expert-S, .Lesson-Overall,
+    .Lesson-Overall2, .Lesson-Overall3 {
+        width: 95%;
+        padding: 4%;
+    }
+
+    .Icon {
+        width: 50px;
+        height: 50px;
+        padding: 1%;
+    }
+
+    nav .Main a {
+        padding: 3% 2%;
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .Preview {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Beginner, .Intermediate, .Expert {
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .Video,
+    .EVideo {
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .Video iframe,
+    .EVideo iframe {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+    }
 }
 
 @keyframes Animation {
@@ -1082,6 +1089,7 @@ img.PE {
 	100% {background-position-x: 0px;}
 	
 }
+
 
 
 
