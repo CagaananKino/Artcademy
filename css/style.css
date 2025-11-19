@@ -600,8 +600,10 @@ li {
 }
 
 .Suggestions h1 {
-	
+
 	margin: 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	padding: 5%;
 	text-align: center;
 	
@@ -1097,3 +1099,4 @@ img.PE {
 	100% {background-position-x: 0px;}
 	
 }
+
