@@ -709,8 +709,8 @@ img.PE {
 	text-align: center;
 	margin: auto;
 	border: 3px solid black;
-	width: 59.26%;
-	height: 18.75%;
+	width: 100%;
+	max-width: 640px;
 	line-height: 0;
 	font-size: 0;
 	padding: 0;
@@ -720,8 +720,8 @@ img.PE {
 .EVideo iframe,
 .EVideo video {
 	
-	width: 59.26%;
-	height: 18.75%;
+	width: 100%;
+	aspect-ratio: 16 / 9;
 	display: block;
 	border: none;
 	margin: 0;
