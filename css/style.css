@@ -112,40 +112,30 @@ nav {
 .Bar {
 	
 	background-image: url('../Images/Extras/Bar.png');
-	background-size: contain;
-	background-repeat: no-repeat;
 	
 }
 
 .Bar-B {
 	
 	background-image: url('../Images/Extras/Beginner_Bar.png');
-	background-size: contain;
-	background-repeat: no-repeat;
 	
 }
 
 .Bar-I {
 	
 	background-image: url('../Images/Extras/Intermediate_Bar.png');
-	background-size: contain;
-	background-repeat: no-repeat;
 	
 }
 
 .Bar-E {
 	
 	background-image: url('../Images/Extras/Expert_Bar.png');
-	background-size: contain;
-	background-repeat: no-repeat;
 	
 }
 
 .Bar-G {
 	
 	background-image: url('../Images/Extras/General_Bar.png');
-	background-size: contain;
-	background-repeat: no-repeat;
 	
 }
 
@@ -1093,6 +1083,7 @@ img.PE {
 	100% {background-position-x: 0px;}
 	
 }
+
 
 
 
